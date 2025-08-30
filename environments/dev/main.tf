@@ -1,5 +1,5 @@
 terraform {
-  required_version = ">= 1.5.0"
+  required_version = ">= 1.12.0"
 
   # backend "s3" {
   #   bucket         = "hug-projects-terraform-state-bucket/project-2/"   
