@@ -43,7 +43,6 @@ module "compute" {
   private_subnets = module.networking.private_subnets
   ami             = "ami-00ca32bbc84273381"
   instance_type   = "t3.micro"
-  # user_data = file("${path.module}/userdata.sh")   
   tags = { Name = "web-app" }
 }
 
